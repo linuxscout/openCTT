@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="dayHourLabel.text">
+		<value>Dan/Sat</value>
+	</data>
+	<data name="dayMonday.text">
+		<value>PON</value>
+	</data>
+	<data name="dayTuesday.text">
+		<value>UTO</value>
+	</data>
+	<data name="dayWednesday.text">
+		<value>SRI</value>
+	</data>
+	<data name="dayThursday.text">
+		<value>ČET</value>
+	</data>
+	<data name="dayFriday.text">
+		<value>PET</value>
+	</data>
+	<data name="daySaturday.text">
+		<value>SUB</value>
+	</data>
+	<data name="daySunday.text">
+		<value>NED</value>
+	</data>
+	<data name="_cancelButton.Text">
+		<value>Odustani</value>
+	</data>
+	<data name="formtitle.Text">
+		<value>Definiranje mogućih termina</value>
+	</data>
+	<data name="checkChangeEduProgram.msb.notsuccessfull.message">
+		<value>Za odabrani obrazovni program nije izvršena promjena u definiranju mogućih termina jer postoji barem jedan termin koji je onemogućen, a u kojem je već definirano održavanje nastave!</value>
+	</data>
+	<data name="checkChangeEduProgram.msb.notsuccessfull.caption">
+		<value>Obavijest o uspješnosti promjene u definiranju mogućih termina</value>
+	</data>
+	<data name="checkChangeEduProgramGroup.msb.notsuccessfull.message">
+		<value>Za odabrani studij nije izvršena promjena u definiranju mogućih termina jer postoji barem jedan termin koji je onemogućen, a u kojem je već za barem jedan obrazovni program definirano održavanje nastave!</value>
+	</data>
+	<data name="checkChangeEduProgramGroup.msb.notsuccessfull.caption">
+		<value>Obavijest o uspješnosti promjene u definiranju mogućih termina</value>
+	</data>
+	<data name="checkChangeTeacher.msb.notsuccessfull.message">
+		<value>Za odabranog nastavnika nije izvršena promjena u definiranju mogućih termina jer postoji barem jedan termin koji je onemogućen, a u kojem je već definirano održavanje nastave za odabranog nastavnika!</value>
+	</data>
+	<data name="checkChangeTeacher.msb.notsuccessfull.caption">
+		<value>Obavijest o uspješnosti promjene u definiranju mogućih termina</value>
+	</data>
+	<data name="checkChangeRoom.msb.notsuccessfull.message">
+		<value>Za odabranu učionicu nije izvršena promjena u definiranju mogućih termina jer postoji barem jedan termin koji je onemogućen, a u kojem je već definirano održavanje nastave u odabranoj učionici!</value>
+	</data>
+	<data name="checkChangeRoom.msb.notsuccessfull.caption">
+		<value>Obavijest o uspješnosti promjene u definiranju mogućih termina</value>
+	</data>
+</root>

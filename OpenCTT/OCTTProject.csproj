@@ -1,0 +1,787 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C8C18B4-0A5C-451D-AF01-5AB969488F08}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>OpenCTT</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OpenCTT</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>OpenCTT.MySplashForm</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PdfSharp, Version=1.0.898.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\OCTTAutomatedTT\OCTTAutomatedTT.csproj">
+      <Project>{2FF5472F-CCA6-41BF-A519-2A5B87D75E82}</Project>
+      <Name>OCTTAutomatedTT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OCTTPluginInterface\OCTTPluginInterface.csproj">
+      <Name>OCTTPluginInterface</Name>
+      <Project>{8BA884D3-AB10-45D8-8210-A09ABC287A67}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Misc\octtfileschema.xsx">
+      <DependentUpon>octtfileschema.xsd</DependentUpon>
+    </None>
+    <Content Include="App.ico" />
+    <Content Include="Misc\octtfileschema.xsd" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\AbstractCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\AddCourseCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\AddDaysCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\AddEduProgramCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\AddEduProgramGroupCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\AddRoomCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\AddTeacherCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\AddTermCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ChangeAllowedTimeSlotsCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ChangeCourseDataCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ChangeDocumentDataCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ChangeEduProgramDataCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ChangeEduProgramGroupDataCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ChangeRoomDataCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ChangeSoftConsCoursesBaseSettingsCmd.cs" />
+    <Compile Include="Commands\ChangeSoftConsEPBaseSettingsCmd.cs" />
+    <Compile Include="Commands\ChangeSoftConsEPSettingsCmd.cs" />
+    <Compile Include="Commands\ChangeSoftConsTeachersBaseSettingsCmd.cs" />
+    <Compile Include="Commands\ChangeSoftConsTeacherSettingsCmd.cs" />
+    <Compile Include="Commands\ChangeTeacherDataCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ChooseRoomTSPCoursesViewCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ChooseRoomTSPTeachersViewCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ClearTimetableCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\CommandProcessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ConvertStandardCourseToGroupsCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\DeleteCourseCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\DeleteDayCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\DeleteEduProgramCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\DeleteEduProgramGroupCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\DeleteMoreThanOneCourseCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\DeleteMoreThanOneRoomCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\DeleteMoreThanOneTeacherCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\DeleteRoomCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\DeleteTeacherCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\DeleteTermCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\MacroCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\SetAllowedRoomsCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\SetCoursesToHoldTogetherCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\TSPCoursesViewDragDropCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\TSPCoursesViewDragDropSuccessfullCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\TSPRoomsViewDragDropCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\TSPRoomsViewDragDropSuccessfullCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\TSPTeachersViewDragDropCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\TSPTeachersViewDragDropSuccessfullCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ULLVCoursesDragDropCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ULLVCoursesItemDragSuccessfullCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ULLVTeachersDragDropCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Commands\ULLVTeachersItemDragSuccessfullCmd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\AddDaysForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddTermForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AllowedTimeSlotsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AppForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AutomatedTTForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AutomatedTTForm.Designer.cs">
+      <DependentUpon>AutomatedTTForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CourseConversionToGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CoursePropertiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CoursesToHoldTogetherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DocumentPropertiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EduProgramPropertiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EPGPropertiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MySplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PrintSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RoomPropertiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RoomSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RoomsRestrictionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SoftConsCoursesBaseSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SoftConsCoursesBaseSettingsForm.Designer.cs">
+      <DependentUpon>SoftConsCoursesBaseSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SoftConsCourseSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SoftConsCourseSettingsForm.Designer.cs">
+      <DependentUpon>SoftConsCourseSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SoftConsEPBaseSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SoftConsEPBaseSettingsForm.Designer.cs">
+      <DependentUpon>SoftConsEPBaseSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SoftConsEPSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SoftConsEPSettingsForm.Designer.cs">
+      <DependentUpon>SoftConsEPSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SoftConsTeachersBaseSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SoftConsTeachersBaseSettingsForm.Designer.cs">
+      <DependentUpon>SoftConsTeachersBaseSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SoftConsTeacherSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SoftConsTeacherSettingsForm.Designer.cs">
+      <DependentUpon>SoftConsTeacherSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TeacherPropertiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Misc\Constants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\CourseGUIColorFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\DayHourCornerLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Misc\DayLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Misc\FileOperations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\HardConstraintChecks.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\ModelOperations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\PdfCreator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\PdfCreatorMasterTimetable.cs" />
+    <Compile Include="Misc\PdfCreatorRoomsList.cs" />
+    <Compile Include="Misc\PdfCreatorTeacherHours.cs" />
+    <Compile Include="Misc\PdfCreatorTeacherList.cs" />
+    <Compile Include="Misc\PluginGlobal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\PluginServices.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\SCBaseSettings.cs" />
+    <Compile Include="Misc\ScrollablePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Misc\Settings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc\TermLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Misc\TimeSlotPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Model\Course.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\EduProgram.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\EduProgramGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\OCTTDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Room.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Teacher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\AddDaysForm.hr-HR.resx">
+      <DependentUpon>AddDaysForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddDaysForm.hr.resx">
+      <DependentUpon>AddDaysForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddDaysForm.resx">
+      <DependentUpon>AddDaysForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddTermForm.hr-HR.resx">
+      <DependentUpon>AddTermForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddTermForm.hr.resx">
+      <DependentUpon>AddTermForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddTermForm.resx">
+      <DependentUpon>AddTermForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AllowedTimeSlotsForm.resx">
+      <DependentUpon>AllowedTimeSlotsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppForm.resx">
+      <DependentUpon>AppForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AutomatedTTForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AutomatedTTForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CourseConversionToGroupForm.hr-HR.resx">
+      <DependentUpon>CourseConversionToGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CourseConversionToGroupForm.hr.resx">
+      <DependentUpon>CourseConversionToGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CourseConversionToGroupForm.resx">
+      <DependentUpon>CourseConversionToGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CoursePropertiesForm.hr-HR.resx">
+      <DependentUpon>CoursePropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CoursePropertiesForm.hr.resx">
+      <DependentUpon>CoursePropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CoursePropertiesForm.resx">
+      <DependentUpon>CoursePropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CoursesToHoldTogetherForm.hr-HR.resx">
+      <DependentUpon>CoursesToHoldTogetherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CoursesToHoldTogetherForm.hr.resx">
+      <DependentUpon>CoursesToHoldTogetherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CoursesToHoldTogetherForm.resx">
+      <DependentUpon>CoursesToHoldTogetherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentPropertiesForm.hr-HR.resx">
+      <DependentUpon>DocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentPropertiesForm.hr.resx">
+      <DependentUpon>DocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentPropertiesForm.resx">
+      <DependentUpon>DocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EduProgramPropertiesForm.hr-HR.resx">
+      <DependentUpon>EduProgramPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EduProgramPropertiesForm.hr.resx">
+      <DependentUpon>EduProgramPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EduProgramPropertiesForm.resx">
+      <DependentUpon>EduProgramPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EPGPropertiesForm.hr-HR.resx">
+      <DependentUpon>EPGPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EPGPropertiesForm.hr.resx">
+      <DependentUpon>EPGPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EPGPropertiesForm.resx">
+      <DependentUpon>EPGPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MySplashForm.resx">
+      <DependentUpon>MySplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintSelectionForm.hr-HR.resx">
+      <DependentUpon>PrintSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintSelectionForm.hr.resx">
+      <DependentUpon>PrintSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintSelectionForm.resx">
+      <DependentUpon>PrintSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RoomPropertiesForm.hr-HR.resx">
+      <DependentUpon>RoomPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RoomPropertiesForm.hr.resx">
+      <DependentUpon>RoomPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RoomPropertiesForm.resx">
+      <DependentUpon>RoomPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RoomSelectionForm.hr-HR.resx">
+      <DependentUpon>RoomSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RoomSelectionForm.hr.resx">
+      <DependentUpon>RoomSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RoomSelectionForm.resx">
+      <DependentUpon>RoomSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RoomsRestrictionForm.hr-HR.resx">
+      <DependentUpon>RoomsRestrictionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RoomsRestrictionForm.hr.resx">
+      <DependentUpon>RoomsRestrictionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RoomsRestrictionForm.resx">
+      <DependentUpon>RoomsRestrictionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchForm.hr-HR.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchForm.hr.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingsForm.hr-HR.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingsForm.hr.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SoftConsCoursesBaseSettingsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SoftConsCoursesBaseSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SoftConsCourseSettingsForm.hr-HR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SoftConsCourseSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SoftConsCourseSettingsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SoftConsCourseSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SoftConsEPBaseSettingsForm.hr-HR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SoftConsEPBaseSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SoftConsEPBaseSettingsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SoftConsEPBaseSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SoftConsEPSettingsForm.hr-HR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SoftConsEPSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SoftConsEPSettingsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SoftConsEPSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SoftConsTeachersBaseSettingsForm.hr-HR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SoftConsTeachersBaseSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SoftConsTeachersBaseSettingsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SoftConsTeachersBaseSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SoftConsTeacherSettingsForm.hr-HR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SoftConsTeacherSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SoftConsTeacherSettingsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SoftConsTeacherSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TeacherPropertiesForm.hr-HR.resx">
+      <DependentUpon>TeacherPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TeacherPropertiesForm.hr.resx">
+      <DependentUpon>TeacherPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TeacherPropertiesForm.resx">
+      <DependentUpon>TeacherPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Misc\DayHourCornerLabel.resx">
+      <DependentUpon>DayHourCornerLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\AddTermForm.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\AddTermForm.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\AppFormSchool.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\AppFormSchool.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\AppFormUniversity.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\AppFormUniversity.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\ATSFormSchool.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\ATSFormSchool.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\ATSFormUniversity.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\ATSFormUniversity.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\Course.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\Course.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\CourseConversionToGroupForm.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\CourseConversionToGroupForm.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\CoursePropertiesFormSchool.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\CoursePropertiesFormSchool.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\CoursePropertiesFormUniversity.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\CoursePropertiesFormUniversity.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\CTHTFormSchool.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\CTHTFormSchool.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\CTHTFormUniversity.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\CTHTFormUniversity.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\DayHourCornerLabel.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\DayHourCornerLabel.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\DayLabel.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\DayLabel.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\EduProgram.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\EduProgram.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\EPGPropertiesFormSchool.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\EPGPropertiesFormSchool.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\EPGPropertiesFormUniversity.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\EPGPropertiesFormUniversity.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\EPPropertiesFormSchool.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\EPPropertiesFormSchool.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\EPPropertiesFormUniversity.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\EPPropertiesFormUniversity.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\FileOperations.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\FileOperations.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\ModelOperations.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\ModelOperations.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\OCTTDocument.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\OCTTDocument.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\PdfCreator.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\PdfCreator.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\PrintSelectionForm.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\PrintSelectionForm.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\Room.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\Room.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\RoomSelectionForm.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\RoomSelectionForm.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\RoomsRestrictionForm.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\RoomsRestrictionForm.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\SearchForm.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\SearchForm.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\TeacherPropertiesForm.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\TeacherPropertiesForm.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\TermLabel.hr-HR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyStrings\TermLabel.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

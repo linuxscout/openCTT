@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="day_index">
+		<xs:simpleType>
+			<xs:restriction base="xs:positiveInteger">
+				<xs:minInclusive value="1" />
+				<xs:maxInclusive value="7" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="term_index">
+		<xs:simpleType>
+			<xs:restriction base="xs:positiveInteger">
+				<xs:minInclusive value="1" />
+				<xs:maxInclusive value="50" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="spec_slots">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="spec_slot" maxOccurs="50">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="day_index" />
+							<xs:element ref="term_index" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="type" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="allowed" />
+						<xs:enumeration value="unallowed" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="allowed_classrooms">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="classroom_id" type="xs:positiveInteger" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="teacher">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string" />
+				<xs:element name="last_name" type="xs:string" />
+				<xs:element name="title" type="xs:string" />
+				<xs:element name="edu_rank" type="xs:string" />
+				<xs:element name="extid" type="xs:string" />
+				<xs:element ref="spec_slots" minOccurs="0" />
+				<xs:element ref="allowed_classrooms" minOccurs="0" />
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:positiveInteger" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="classroom">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string" />
+				<xs:element name="extid" type="xs:string" />
+				<xs:element name="capacity" type="xs:positiveInteger" />
+				<xs:element ref="spec_slots" minOccurs="0" />
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:positiveInteger" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="lessons_in_tt">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="lesson_in_tt" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="lesson_in_tt">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="course_id" type="xs:positiveInteger" />
+				<xs:element ref="day_index" />
+				<xs:element ref="term_index" />
+				<xs:element name="classroom_id" type="xs:positiveInteger" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="course">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string" />
+				<xs:element name="short_name" type="xs:string" />
+				<xs:element name="course_type" type="xs:string" />
+				<xs:element name="num_of_lessons_per_week" type="xs:positiveInteger" />
+				<xs:element name="num_of_enrolled_students" type="xs:integer" />
+				<xs:element name="group_name" type="xs:string" />
+				<xs:element name="teacher_id" type="xs:positiveInteger" />
+				<xs:element name="extid" type="xs:string" />
+				<xs:element name="allowed_classrooms" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="classroom_id" type="xs:positiveInteger" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="to_hold_together_with" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="course_id" type="xs:positiveInteger" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:positiveInteger" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="edu_program">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string" />
+				<xs:element name="code" type="xs:string" />
+				<xs:element name="semester" type="xs:string" />
+				<xs:element name="extid" type="xs:string" />
+				<xs:element ref="spec_slots" minOccurs="0" />
+				<xs:element name="courses" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="course" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="open_course_timetabler">
+		<xs:annotation>
+			<xs:documentation>This is root element of Open Course Timetabler xml schema</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="edu_institution_name" type="xs:string" />
+				<xs:element name="school_year" type="xs:string" />
+				<xs:element name="incl_days" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="day_index" minOccurs="0" maxOccurs="7" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="incl_terms" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="term" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="index" type="xs:positiveInteger" use="required" />
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="teachers" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="teacher" minOccurs="0" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="classrooms" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="classroom" minOccurs="0" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="edu_program_groups" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="edu_program_group" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name" type="xs:string" />
+										<xs:element name="extid" type="xs:string" />
+										<xs:element ref="spec_slots" minOccurs="0" />
+										<xs:element name="edu_programs" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element ref="edu_program" maxOccurs="unbounded" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="activities" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="lessons_in_tt" minOccurs="0" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="document_type" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:positiveInteger">
+						<xs:enumeration value="1" />
+						<xs:enumeration value="2" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="version" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

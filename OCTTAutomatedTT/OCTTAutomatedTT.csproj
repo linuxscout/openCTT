@@ -1,0 +1,66 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2FF5472F-CCA6-41BF-A519-2A5B87D75E82}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OpenCTT.Automated</RootNamespace>
+    <AssemblyName>OCTTAutomated</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractSoftConstraint.cs" />
+    <Compile Include="ACourse.cs" />
+    <Compile Include="AEduProgram.cs" />
+    <Compile Include="AGlobal.cs" />
+    <Compile Include="ALessonNode.cs" />
+    <Compile Include="ATeacher.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SCCourseLessonBlocks.cs" />
+    <Compile Include="SCStudentMaxDaysPerWeek.cs" />
+    <Compile Include="SCStudentMaxHoursContinuously.cs" />
+    <Compile Include="SCStudentMaxHoursDaily.cs" />
+    <Compile Include="SCStudentNoGaps.cs" />
+    <Compile Include="SCStudentPreferredStartTimePeriod.cs" />
+    <Compile Include="SCTeacherMaxDaysPerWeek.cs" />
+    <Compile Include="SCTeacherMaxHoursContinuously.cs" />
+    <Compile Include="SCTeacherMaxHoursDaily.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetPath) $(SolutionDir)\OpenCTT\bin\Release
+copy $(TargetPath) $(SolutionDir)\OpenCTT\bin\Debug</PostBuildEvent>
+  </PropertyGroup>
+</Project>

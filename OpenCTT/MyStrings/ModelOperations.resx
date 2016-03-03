@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="searchfor.epg.university.name.text">
+		<value>EDUCATIONAL PROGRAM GROUP, Name:</value>
+	</data>
+	<data name="searchfor.epg.school.name.text">
+		<value>EDUCATIONAL PROGRAM GROUP, Name:</value>
+	</data>
+	<data name="searchfor.ep.university.name.text">
+		<value>EDUCATIONAL PROGRAM, Name:</value>
+	</data>
+	<data name="searchfor.ep.school.name.text">
+		<value>CLASS, Name:</value>
+	</data>
+	<data name="searchfor.ep.university.code.text">
+		<value>EDUCATIONAL PROGRAM, Code:</value>
+	</data>
+	<data name="searchfor.ep.school.code.text">
+		<value>EDUCATIONAL PROGRAM, Code:</value>
+	</data>
+	<data name="searchfor.ep.university.semester.text">
+		<value>EDUCATIONAL PROGRAM, Semester:</value>
+	</data>
+	<data name="searchfor.ep.school.semester.text">
+		<value>EDUCATIONAL PROGRAM, Semester:</value>
+	</data>
+	<data name="searchfor.course.name.text">
+		<value>COURSE, Name:</value>
+	</data>
+	<data name="searchfor.course.shortname.text">
+		<value>COURSE, Short name:</value>
+	</data>
+	<data name="searchfor.course.numoflessperweek.text">
+		<value>COURSE, Num. of lessons per week:</value>
+	</data>
+	<data name="searchfor.course.numofenrolledstud.text">
+		<value>COURSE, Num. of enrolled students:</value>
+	</data>
+	<data name="searchfor.course.groupname.text">
+		<value>COURSE, Group name:</value>
+	</data>
+	<data name="searchfor.teacher.name.text">
+		<value>TEACHER, Name:</value>
+	</data>
+	<data name="searchfor.teacher.lastname.text">
+		<value>TEACHER, Lastname:</value>
+	</data>
+	<data name="searchfor.teacher.title.text">
+		<value>TEACHER, Title:</value>
+	</data>
+	<data name="searchfor.teacher.edurank.text">
+		<value>TEACHER, Edu rank:</value>
+	</data>
+	<data name="searchfor.room.name.text">
+		<value>ROOM, Name:</value>
+	</data>
+	<data name="searchfor.room.capacity.text">
+		<value>ROOM, Capacity:</value>
+	</data>
+</root>

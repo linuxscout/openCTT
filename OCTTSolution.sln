@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCTTProject", "OpenCTT\OCTTProject.csproj", "{7C8C18B4-0A5C-451D-AF01-5AB969488F08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCTTPluginInterface", "OCTTPluginInterface\OCTTPluginInterface.csproj", "{8BA884D3-AB10-45D8-8210-A09ABC287A67}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OCTTSetup", "OCTTSetup\OCTTSetup.vdproj", "{10EB09F9-7F31-485E-A8AD-AEC3A5E866AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCTT_MySql_Plugin", "OCTT_MySql_Plugin\OCTT_MySql_Plugin.csproj", "{BB26F2E2-1D44-4E2A-8380-657158F2EBA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCTTAutomatedTT", "OCTTAutomatedTT\OCTTAutomatedTT.csproj", "{2FF5472F-CCA6-41BF-A519-2A5B87D75E82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C8C18B4-0A5C-451D-AF01-5AB969488F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8C18B4-0A5C-451D-AF01-5AB969488F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8C18B4-0A5C-451D-AF01-5AB969488F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8C18B4-0A5C-451D-AF01-5AB969488F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA884D3-AB10-45D8-8210-A09ABC287A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA884D3-AB10-45D8-8210-A09ABC287A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA884D3-AB10-45D8-8210-A09ABC287A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA884D3-AB10-45D8-8210-A09ABC287A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10EB09F9-7F31-485E-A8AD-AEC3A5E866AC}.Debug|Any CPU.ActiveCfg = Debug
+		{10EB09F9-7F31-485E-A8AD-AEC3A5E866AC}.Release|Any CPU.ActiveCfg = Release
+		{BB26F2E2-1D44-4E2A-8380-657158F2EBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB26F2E2-1D44-4E2A-8380-657158F2EBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB26F2E2-1D44-4E2A-8380-657158F2EBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB26F2E2-1D44-4E2A-8380-657158F2EBA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FF5472F-CCA6-41BF-A519-2A5B87D75E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF5472F-CCA6-41BF-A519-2A5B87D75E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF5472F-CCA6-41BF-A519-2A5B87D75E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF5472F-CCA6-41BF-A519-2A5B87D75E82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

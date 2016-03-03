@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_printChoiceEPMenuItem.Text" xml:space="preserve">
+    <value>Za obrazovne programe</value>
+  </data>
+  <data name="_addEPGMenuItem.Text" xml:space="preserve">
+    <value>Dodaj studij</value>
+  </data>
+  <data name="_epgMenuItem.Text" xml:space="preserve">
+    <value>Studij</value>
+  </data>
+  <data name="_epgPropertiesMenuItem.Text" xml:space="preserve">
+    <value>Podaci o  studiju</value>
+  </data>
+  <data name="_addEPMenuItem.Text" xml:space="preserve">
+    <value>Dodaj obrazovni program</value>
+  </data>
+  <data name="_delEPGMenuItem.Text" xml:space="preserve">
+    <value>Izbriši studij</value>
+  </data>
+  <data name="_epgPrintTTForAllEPsMenuItem.Text" xml:space="preserve">
+    <value>Ispis rasporeda za sve pripadajuće obrazovne programe</value>
+  </data>
+  <data name="_epMenuItem.Text" xml:space="preserve">
+    <value>Obrazovni program</value>
+  </data>
+  <data name="_epPropertiesMenuItem.Text" xml:space="preserve">
+    <value>Podaci o obrazovnom programu</value>
+  </data>
+  <data name="_delEPMenuItem.Text" xml:space="preserve">
+    <value>Izbriši obrazovni program</value>
+  </data>
+  <data name="_epPrintTTMenuItem.Text" xml:space="preserve">
+    <value>Ispis rasporeda za obrazovni program</value>
+  </data>
+  <data name="_fileMenuItem.Text" xml:space="preserve">
+    <value>Datoteka</value>
+  </data>
+  <data name="_newDocMenuItem.Text" xml:space="preserve">
+    <value>Novi dokument</value>
+  </data>
+  <data name="_openDocMenuItem.Text" xml:space="preserve">
+    <value>Otvori dokument</value>
+  </data>
+  <data name="_saveDocMenuItem.Text" xml:space="preserve">
+    <value>Spremi</value>
+  </data>
+  <data name="_saveAsDocMenuItem.Text" xml:space="preserve">
+    <value>Spremi kao...</value>
+  </data>
+  <data name="_closeDocMenuItem.Text" xml:space="preserve">
+    <value>Zatvori dokument</value>
+  </data>
+  <data name="_printTimetableMenuItem.Text" xml:space="preserve">
+    <value>Ispis rasporeda</value>
+  </data>
+  <data name="_printChoiceTeacherMenuItem.Text" xml:space="preserve">
+    <value>Za nastavnike</value>
+  </data>
+  <data name="_printChoiceRoomMenuItem.Text" xml:space="preserve">
+    <value>Za učionice</value>
+  </data>
+  <data name="_exitAppMenuItem.Text" xml:space="preserve">
+    <value>Izlaz iz programa</value>
+  </data>
+  <data name="_docMenuItem.Text" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="_addTeacherMenuItem.Text" xml:space="preserve">
+    <value>Dodaj nastavnika</value>
+  </data>
+  <data name="_delAllTeachersMenuItem.Text" xml:space="preserve">
+    <value>Izbriši sve nastavnike</value>
+  </data>
+  <data name="_printTimetableAllTeachersMenuItem.Text" xml:space="preserve">
+    <value>Ispis rasporeda za sve nastavnike</value>
+  </data>
+  <data name="_addRoomMenuItem.Text" xml:space="preserve">
+    <value>Dodaj učionicu</value>
+  </data>
+  <data name="_delAllRoomsMenuItem.Text" xml:space="preserve">
+    <value>Izbriši sve učionice</value>
+  </data>
+  <data name="_printTimetableAllRoomsMenuItem.Text" xml:space="preserve">
+    <value>Ispis rasporeda za sve učionice</value>
+  </data>
+  <data name="_docPropertiesMenuItem.Text" xml:space="preserve">
+    <value>Podaci o dokumentu</value>
+  </data>
+  <data name="_searchMenuItem.Text" xml:space="preserve">
+    <value>Pretraživanje</value>
+  </data>
+  <data name="_epgATSMenuItem.Text" xml:space="preserve">
+    <value>Definiranje mogućih termina</value>
+  </data>
+  <data name="_addCourseMenuItem.Text" xml:space="preserve">
+    <value>Dodaj predmet</value>
+  </data>
+  <data name="_addCourseFromClipboardMenuItem.Text" xml:space="preserve">
+    <value>Dodaj predmet iz međuspremnika</value>
+  </data>
+  <data name="_epATSMenuItem.Text" xml:space="preserve">
+    <value>Definiranje mogućih termina</value>
+  </data>
+  <data name="_clearTimetableMenuItem.Text" xml:space="preserve">
+    <value>Isprazni raspored</value>
+  </data>
+  <data name="_epDelAllMyCoursesMenuItem.Text" xml:space="preserve">
+    <value>Izbriši sve pripadajuće predmete</value>
+  </data>
+  <data name="_courseMenuItem.Text" xml:space="preserve">
+    <value>Predmet</value>
+  </data>
+  <data name="_coursePropertiesMenuItem.Text" xml:space="preserve">
+    <value>Podaci o predmetu</value>
+  </data>
+  <data name="_courseRoomsRestrictionMenuItem.Text" xml:space="preserve">
+    <value>Ograničavanje mogućih učionica</value>
+  </data>
+  <data name="_coursesToHoldTogetherMenuItem.Text" xml:space="preserve">
+    <value>Definiranje zajedničkog održavanja nastave</value>
+  </data>
+  <data name="_convertToGroupsMenuItem.Text" xml:space="preserve">
+    <value>Pretvori u grupe</value>
+  </data>
+  <data name="_delCourseMenuItem.Text" xml:space="preserve">
+    <value>Izbriši predmet</value>
+  </data>
+  <data name="_courseStoreToClipboardMenuItem.Text" xml:space="preserve">
+    <value>Spremi predmet u međuspremnik</value>
+  </data>
+  <data name="_teacherMenuItem.Text" xml:space="preserve">
+    <value>Nastavnik</value>
+  </data>
+  <data name="_teacherPropertiesMenuItem.Text" xml:space="preserve">
+    <value>Podaci o nastavniku</value>
+  </data>
+  <data name="_teacherATSMenuItem.Text" xml:space="preserve">
+    <value>Definiranje mogućih termina</value>
+  </data>
+  <data name="_teacherRoomsRestrictionMenuItem.Text" xml:space="preserve">
+    <value>Ograničavanje mogućih učionica</value>
+  </data>
+  <data name="_delTeacherMenuItem.Text" xml:space="preserve">
+    <value>Izbriši odabranog nastavnika</value>
+  </data>
+  <data name="_teacherPrintTTMenuItem.Text" xml:space="preserve">
+    <value>Ispis rasporeda za nastavnika</value>
+  </data>
+  <data name="_roomMenuItem.Text" xml:space="preserve">
+    <value>Učionica</value>
+  </data>
+  <data name="_roomPropertiesMenuItem.Text" xml:space="preserve">
+    <value>Podaci o učionici</value>
+  </data>
+  <data name="_roomATSMenuItem.Text" xml:space="preserve">
+    <value>Definiranje mogućih termina</value>
+  </data>
+  <data name="_delRoomMenuItem.Text" xml:space="preserve">
+    <value>Izbriši odabranu učionicu</value>
+  </data>
+  <data name="_roomPrintTTMenuItem.Text" xml:space="preserve">
+    <value>Ispis rasporeda za učionicu</value>
+  </data>
+  <data name="_toolsMenuItem.Text" xml:space="preserve">
+    <value>Alati</value>
+  </data>
+  <data name="_settingsMenuItem.Text" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="_helpMenuItem.Text" xml:space="preserve">
+    <value>Pomoć</value>
+  </data>
+  <data name="_helpContentMenuItem.Text" xml:space="preserve">
+    <value>Sadržaj</value>
+  </data>
+  <data name="_aboutMenuItem.Text" xml:space="preserve">
+    <value>O programu</value>
+  </data>
+  <data name="_newDocToolBarButton.ToolTipText" xml:space="preserve">
+    <value>Novi dokument</value>
+  </data>
+  <data name="_openDocToolBarButton.ToolTipText" xml:space="preserve">
+    <value>Otvori dokument</value>
+  </data>
+  <data name="_saveDocToolBarButton.ToolTipText" xml:space="preserve">
+    <value>Spremi</value>
+  </data>
+  <data name="_closeDocToolBarButton.ToolTipText" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="_undoToolBarButton.ToolTipText" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="_redoToolBarButton.ToolTipText" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="_searchToolBarButton.ToolTipText" xml:space="preserve">
+    <value>Pretraživanje</value>
+  </data>
+  <data name="_printToolBarButton.ToolTipText" xml:space="preserve">
+    <value>Ispis rasporeda</value>
+  </data>
+  <data name="_helpToolBarButton.ToolTipText" xml:space="preserve">
+    <value>Pomoć</value>
+  </data>
+  <data name="_coursesTab.Text" xml:space="preserve">
+    <value>Studiji</value>
+  </data>
+  <data name="_columnHeaderULLVTeachers2.Text" xml:space="preserve">
+    <value>Obrazovni program</value>
+  </data>
+  <data name="_columnHeaderULLVTeachers3.Text" xml:space="preserve">
+    <value>Semestar</value>
+  </data>
+  <data name="_teachersTab.Text" xml:space="preserve">
+    <value>Nastavnici</value>
+  </data>
+  <data name="_roomsTab.Text" xml:space="preserve">
+    <value>Učionice</value>
+  </data>
+  <data name="_columnHeaderULLVCourses1.Text" xml:space="preserve">
+    <value>Neraspoređeni  školski sat</value>
+  </data>
+  <data name="_columnHeaderULLVCourses2.Text" xml:space="preserve">
+    <value>Nastavnik</value>
+  </data>
+  <data name="_columnHeaderULLVTeachers1.Text" xml:space="preserve">
+    <value>Neraspoređeni  školski sat</value>
+  </data>
+  <data name="deleteEPG_Click.msb.message" xml:space="preserve">
+    <value>Želite li zaista izbrisati odabrani studij?</value>
+  </data>
+  <data name="deleteEPG_Click.msb.caption" xml:space="preserve">
+    <value>Potvrda brisanja studija</value>
+  </data>
+  <data name="deleteEPG_Click.msb.notdel.message" xml:space="preserve">
+    <value>Studij nije izbrisan jer barem  jedan pripadajući obrazovni program ima u rasporedu barem jedan raspoređeni školski sat!</value>
+  </data>
+  <data name="deleteEPG_Click.msb.notdel.caption" xml:space="preserve">
+    <value>Obavijest o uspješnosti brisanja studija</value>
+  </data>
+  <data name="addCourseFromClipboard_Click.msb.notadded.reason.teacher.message" xml:space="preserve">
+    <value>Novi predmet nije kreiran jer za predmet u međuspremniku ne postoji nastavnik!</value>
+  </data>
+  <data name="addCourseFromClipboard_Click.msb.notadded.reason.teacher.caption" xml:space="preserve">
+    <value>Obavijest o uspješnosti unosa novog predmeta</value>
+  </data>
+  <data name="addCourseFromClipboard_Click.msb.notadded.reason.name.message" xml:space="preserve">
+    <value>Novi predmet nije kreiran jer u obrazovnom programu već postoji predmet s istim punim ili skraćenim nazivom!</value>
+  </data>
+  <data name="addCourseFromClipboard_Click.msb.notadded.reason.name.caption" xml:space="preserve">
+    <value>Obavijest o uspješnosti unosa novog predmeta</value>
+  </data>
+  <data name="deleteAllCourses_Click.msb.confirm.message" xml:space="preserve">
+    <value>Želite li zaista izbrisati sve pripadajuće predmete?</value>
+  </data>
+  <data name="deleteAllCourses_Click.msb.confirm.caption" xml:space="preserve">
+    <value>Potvrda brisanja svih predmeta</value>
+  </data>
+  <data name="deleteAllCourses_Click.msb.notalldeleted.message" xml:space="preserve">
+    <value>Jedan ili više predmeta nisu izbrisani jer imaju raspoređen barem jedan školski sat. Da biste izbrisali navedene predmete, potrebno je sve njihove školske sate iz rasporeda (raspoređene sate) prebaciti u neraspoređene sate.</value>
+  </data>
+  <data name="deleteAllCourses_Click.msb.notalldeleted.caption" xml:space="preserve">
+    <value>Obavijest o uspješnosti brisanja svih predmeta</value>
+  </data>
+  <data name="deleteEduProgram_Click.msb.confirm.message" xml:space="preserve">
+    <value>Želite li zaista izbrisati odabrani obrazovni program?</value>
+  </data>
+  <data name="deleteEduProgram_Click.msb.confirm.caption" xml:space="preserve">
+    <value>Potvrda brisanja obrazovnog programa</value>
+  </data>
+  <data name="deleteEduProgram_Click.msb.notdeleted.message" xml:space="preserve">
+    <value>Obrazovni program nije izbrisan jer u rasporedu ima barem jedan školski sat. Da biste izbrisali odabrani obrazovni program, potrebno je sve školske sate iz rasporeda (raspoređene sate) prebaciti u neraspoređene sate.</value>
+  </data>
+  <data name="deleteEduProgram_Click.msb.notdeleted.caption" xml:space="preserve">
+    <value>Obavijest o uspješnosti brisanja obrazovnog programa</value>
+  </data>
+  <data name="clearTimetable_Click.msb.confirm.message" xml:space="preserve">
+    <value>Želite li zaiste izbrisati sve školske sate iz rasporeda?</value>
+  </data>
+  <data name="clearTimetable_Click.msb.confirm.caption" xml:space="preserve">
+    <value>Potvrda brisanja svih školskih sati iz rasporeda</value>
+  </data>
+  <data name="deleteCourse_Click.msb.confirm.message" xml:space="preserve">
+    <value>Želite li zaista izbrisati odabrani predmet?</value>
+  </data>
+  <data name="deleteCourse_Click.msb.confirm.caption" xml:space="preserve">
+    <value>Potvrda brisanja predmeta</value>
+  </data>
+  <data name="deleteCourse_Click.msb.notdeleted.message" xml:space="preserve">
+    <value>Predmet nije izbrisan jer u rasporedu ima raspoređen barem jedan školski sat. Da biste izbrisali odabrani predmet, potrebno je sve njegove školske sate iz rasporeda prebaciti u neraspoređene sate.</value>
+  </data>
+  <data name="deleteCourse_Click.msb.notdeleted.caption" xml:space="preserve">
+    <value>Obavijest o uspješnosti brisanja predmeta</value>
+  </data>
+  <data name="roomRestrictionForCourse_Click.course.text" xml:space="preserve">
+    <value>predmet</value>
+  </data>
+  <data name="roomRestrictionForCourse_Click.group.text" xml:space="preserve">
+    <value>grupa</value>
+  </data>
+  <data name="deleteAllTeachers_Click.msb.confirm.message" xml:space="preserve">
+    <value>Želite li zaista izbrisati sve nastavnike?</value>
+  </data>
+  <data name="deleteAllTeachers_Click.msb.confirm.caption" xml:space="preserve">
+    <value>Potvrda brisanja svih nastavnika</value>
+  </data>
+  <data name="deleteAllTeachers_Click.msb.notalldeleted.message" xml:space="preserve">
+    <value>Barem jedan nastavnik nije izbrisan. Nastavnik koji nije izbrisan je za barem jedan predmet definiran kao predmetni nastavnik.</value>
+  </data>
+  <data name="deleteAllTeachers_Click.msb.notalldeleted.caption" xml:space="preserve">
+    <value>Obavijest o uspješnosti brisanja svih nastavnika</value>
+  </data>
+  <data name="roomRestrictionForTeacher_Click.forteacher.text" xml:space="preserve">
+    <value>nastavnika</value>
+  </data>
+  <data name="deleteTeacher_Click.msb.confirm.message" xml:space="preserve">
+    <value>Želite li zaista izbrisati odabranog nastavnika?</value>
+  </data>
+  <data name="deleteTeacher_Click.msb.confirm.caption" xml:space="preserve">
+    <value>Potvrda brisanja nastavnika</value>
+  </data>
+  <data name="deleteTeacher_Click.msb.notdeleted.message" xml:space="preserve">
+    <value>Nastavnik nije obrisan jer je za barem jedan predmet definiran kao predmetni nastavnik.</value>
+  </data>
+  <data name="deleteTeacher_Click.msb.notdeleted.caption" xml:space="preserve">
+    <value>Obavijest o uspješnosti brisanja nastavnika</value>
+  </data>
+  <data name="doctypeslist.school.text" xml:space="preserve">
+    <value>Škola</value>
+  </data>
+  <data name="doctypeslist.university.text" xml:space="preserve">
+    <value>Fakultet</value>
+  </data>
+  <data name="daytext.monday" xml:space="preserve">
+    <value>PONEDJELJAK</value>
+  </data>
+  <data name="daytext.tuesday" xml:space="preserve">
+    <value>UTORAK</value>
+  </data>
+  <data name="daytext.wednesday" xml:space="preserve">
+    <value>SRIJEDA</value>
+  </data>
+  <data name="daytext.thursday" xml:space="preserve">
+    <value>ČETVRTAK</value>
+  </data>
+  <data name="daytext.friday" xml:space="preserve">
+    <value>PETAK</value>
+  </data>
+  <data name="daytext.saturday" xml:space="preserve">
+    <value>SUBOTA</value>
+  </data>
+  <data name="daytext.sunday" xml:space="preserve">
+    <value>NEDJELJA</value>
+  </data>
+  <data name="deleteAllRooms_Click.msb.confirm.message" xml:space="preserve">
+    <value>Želite li zaista izbrisati sve učionice?</value>
+  </data>
+  <data name="deleteAllRooms_Click.msb.confirm.caption" xml:space="preserve">
+    <value>Potvrda brisanja svih učionica</value>
+  </data>
+  <data name="deleteAllRooms_Click.msb.notalldeleted.message" xml:space="preserve">
+    <value>Barem jedna učionica nije obrisana. Za svaku učionicu koja nije obrisana postoji barem jedan školski sat koji je raspoređen u dotičnu učionicu.</value>
+  </data>
+  <data name="deleteAllRooms_Click.msb.notalldeleted.caption" xml:space="preserve">
+    <value>Obavijest o uspješnosti brisanja svih učionica</value>
+  </data>
+  <data name="deleteRoom_Click.msb.confirm.message" xml:space="preserve">
+    <value>Želite li zaista izbrisati odabranu učionicu?</value>
+  </data>
+  <data name="deleteRoom_Click.msb.confirm.caption" xml:space="preserve">
+    <value>Potvrda brisanja učionice</value>
+  </data>
+  <data name="deleteRoom_Click.msb.notdeleted.message" xml:space="preserve">
+    <value>Učionica nije obrisana jer postoji barem jedan školski sat koji je raspoređen u dotičnu učionicu.</value>
+  </data>
+  <data name="deleteRoom_Click.msb.notdeleted.caption" xml:space="preserve">
+    <value>Obavijest o uspješnosti brisanja učionice</value>
+  </data>
+  <data name="ctv.timetableTab.for.Text" xml:space="preserve">
+    <value>Raspored za obrazovni program:</value>
+  </data>
+  <data name="ctv.timetableTab.sem.text" xml:space="preserve">
+    <value>. sem.</value>
+  </data>
+  <data name="rtv.timetableTab.for.Text" xml:space="preserve">
+    <value>Raspored za učionicu:</value>
+  </data>
+  <data name="ttv.timetableTab.for.Text" xml:space="preserve">
+    <value>Raspored za nastavnika:</value>
+  </data>
+  <data name="doOpenDocAction.msb.filenotfound.message1" xml:space="preserve">
+    <value>Došlo je do pogreške kod čitanja datoteke. Datoteka</value>
+  </data>
+  <data name="doOpenDocAction.msb.filenotfound.message2" xml:space="preserve">
+    <value>nije pronađena!</value>
+  </data>
+  <data name="doOpenDocAction.msb.filenotfound.caption" xml:space="preserve">
+    <value>Pogreška</value>
+  </data>
+  <data name="checkSaveBeforeCloseDocument.msb.confirm.message1" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="checkSaveBeforeCloseDocument.msb.confirm.message2" xml:space="preserve">
+    <value>je promjenjen. Želite li spremiti promjene?</value>
+  </data>
+  <data name="checkSaveBeforeCloseDocument.msb.confirm.caption" xml:space="preserve">
+    <value>Zatvaranje dokumenta</value>
+  </data>
+  <data name="addNewDayMenuItem.Text" xml:space="preserve">
+    <value>Dodaj novi dan u raspored</value>
+  </data>
+  <data name="addNewTermMenuItem.Text" xml:space="preserve">
+    <value>Dodaj novi termin u raspored</value>
+  </data>
+  <data name="_printTeacherListMenuItem.Text" xml:space="preserve">
+    <value>Ispis popisa nastavnika</value>
+  </data>
+  <data name="_printTeacherHoursMenuItem.Text" xml:space="preserve">
+    <value>Ispis broja sati po nastavniku</value>
+  </data>
+  <data name="_printRoomsListMenuItem.Text" xml:space="preserve">
+    <value>Ispis popisa učionica</value>
+  </data>
+  <data name="_scBaseTeachersMenuItem.Text" xml:space="preserve">
+    <value>Bazna meka ograničenja za nastavnike</value>
+  </data>
+  <data name="_scTeacherMenuItem.Text" xml:space="preserve">
+    <value>Postavke za meka ograničenja za odabranog nastavnika</value>
+  </data>
+  <data name="_scBaseEPMenuItem.Text" xml:space="preserve">
+    <value>Bazna meka ograničenja za obrazovne programe</value>
+  </data>
+  <data name="_scEduProgramMenuItem.Text" xml:space="preserve">
+    <value>Postavke za meka ograničenja za obrazovni program</value>
+  </data>
+  <data name="_autoTTMenuItem.Text" xml:space="preserve">
+    <value>Automatsko raspoređivanje</value>
+  </data>
+  <data name="_scBaseCoursesMenuItem.Text" xml:space="preserve">
+    <value>Bazna meka ograničenja za predmete</value>
+  </data>
+  <data name="_scCourseMenuItem.Text" xml:space="preserve">
+    <value>Postavke za meka ograničenja za odabrani predmet</value>
+  </data>
+  <data name="_printMasterTimetableMenuItem.Text" xml:space="preserve">
+    <value>Master raspored</value>
+  </data>
+</root>
