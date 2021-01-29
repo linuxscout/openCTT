@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{7C8C18B4-0A5C-451D-AF01-5AB969488F08}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="OpenCTT/MyStrings/AppFormSchool.fr-FR.resx">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OpenCTT/Forms/SettingsForm.cs">
     <Files>
-      <File FileName="OpenCTT/MyStrings/AddTermForm.fr-FR.resx" Line="46" Column="46" />
-      <File FileName="OpenCTT/MyStrings/AppFormSchool.fr-FR.resx" Line="1" Column="1" />
+      <File FileName="OpenCTT/Forms/SettingsForm.cs" Line="1636" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +14,7 @@
                 <Node name="AllowedTimeSlotsForm.cs" expanded="True" />
                 <Node name="RoomsRestrictionForm.cs" expanded="True" />
                 <Node name="SearchForm.cs" expanded="True" />
-                <Node name="SettingsForm.cs" expanded="True" />
+                <Node name="SettingsForm.cs" expanded="True" selected="True" />
                 <Node name="SoftConsCoursesBaseSettingsForm.cs" expanded="True" />
               </Node>
               <Node name="Misc" expanded="True">
@@ -23,9 +22,7 @@
                 <Node name="octtfileschema.xsd" expanded="True" />
               </Node>
               <Node name="Model" expanded="True" />
-              <Node name="MyStrings" expanded="True">
-                <Node name="AppFormSchool.fr-FR.resx" selected="True" />
-              </Node>
+              <Node name="MyStrings" expanded="True" />
             </Node>
           </Node>
         </State>
