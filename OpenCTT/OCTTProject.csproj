@@ -1,8 +1,7 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <ProductVersion>8.0.50727</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7C8C18B4-0A5C-451D-AF01-5AB969488F08}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -15,7 +14,6 @@
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
-    <DelaySign>false</DelaySign>
     <OutputType>WinExe</OutputType>
     <RootNamespace>OpenCTT</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
@@ -773,6 +771,35 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen.png" />
+    <EmbeddedResource Include="MyStrings\AddTermForm.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\OCTTDocument.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\AppFormSchool.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\AppFormUniversity.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\TeacherPropertiesForm.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\TermLabel.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\RoomsRestrictionForm.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\EduProgram.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\DayLabel.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\DayHourCornerLabel.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\CTHTFormUniversity.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\CTHTFormSchool.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\CoursePropertiesFormUniversity.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\CoursePropertiesFormSchool.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\CourseConversionToGroupForm.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\ATSFormUniversity.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\ATSFormSchool.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\PdfCreator.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\RoomSelectionForm.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\PrintSelectionForm.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\Room.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\Course.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\ModelOperations.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\FileOperations.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\SearchForm.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\EPGPropertiesFormUniversity.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\EPGPropertiesFormSchool.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\EPPropertiesFormSchool.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\EPPropertiesFormUniversity.fr-FR.resx" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />

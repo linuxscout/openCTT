@@ -194,8 +194,10 @@ namespace OpenCTT
 			ArrayList languagesList = new ArrayList();
 			languagesList.Add(new OCTTGuiLanguage("en","English"));
             languagesList.Add(new OCTTGuiLanguage("hr-HR","Croatian (Hrvatski)"));
-			
-			_guiLanguageComboBox.DataSource=languagesList;
+            languagesList.Add(new OCTTGuiLanguage("fr-FR", "French (Fran?ais)"));
+           // languagesList.Add(new OCTTGuiLanguage("ar-AR", "Arabic (العربية)"));
+
+            _guiLanguageComboBox.DataSource=languagesList;
 			_guiLanguageComboBox.ValueMember="ShortLang";
 			_guiLanguageComboBox.DisplayMember="LongLang";
 

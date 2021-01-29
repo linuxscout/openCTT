@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2005
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCTTProject", "OpenCTT\OCTTProject.csproj", "{7C8C18B4-0A5C-451D-AF01-5AB969488F08}"
 EndProject
@@ -24,8 +24,8 @@ Global
 		{8BA884D3-AB10-45D8-8210-A09ABC287A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BA884D3-AB10-45D8-8210-A09ABC287A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BA884D3-AB10-45D8-8210-A09ABC287A67}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10EB09F9-7F31-485E-A8AD-AEC3A5E866AC}.Debug|Any CPU.ActiveCfg = Debug
-		{10EB09F9-7F31-485E-A8AD-AEC3A5E866AC}.Release|Any CPU.ActiveCfg = Release
+		{10EB09F9-7F31-485E-A8AD-AEC3A5E866AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10EB09F9-7F31-485E-A8AD-AEC3A5E866AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB26F2E2-1D44-4E2A-8380-657158F2EBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BB26F2E2-1D44-4E2A-8380-657158F2EBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB26F2E2-1D44-4E2A-8380-657158F2EBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,5 +37,36 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = application/config+xml
+		$0.XmlFormattingPolicy = $3
+		$3.inheritsSet = null
+		$3.scope = application/config+xml
+		$0.TextStylePolicy = $4
+		$4.inheritsSet = null
+		$4.scope = application/xml
+		$0.XmlFormattingPolicy = $5
+		$5.scope = application/xml
+		$0.TextStylePolicy = $6
+		$6.FileWidth = 80
+		$6.TabsToSpaces = True
+		$6.scope = text/plain
+		$0.TextStylePolicy = $7
+		$7.inheritsSet = null
+		$7.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $8
+		$8.scope = text/x-csharp
+		$0.TextStylePolicy = $9
+		$9.inheritsSet = null
+		$9.scope = text/microsoft-resx
+		$0.XmlFormattingPolicy = $10
+		$10.inheritsSet = null
+		$10.scope = text/microsoft-resx
+		$0.StandardHeader = $11
 	EndGlobalSection
 EndGlobal

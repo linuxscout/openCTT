@@ -1,9 +1,8 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.50727</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2FF5472F-CCA6-41BF-A519-2A5B87D75E82}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -59,8 +58,10 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+<!--
   <PropertyGroup>
-    <PostBuildEvent>copy $(TargetPath) $(SolutionDir)\OpenCTT\bin\Release
+    <PostBuildEvent>cp $(TargetPath) $(SolutionDir)\OpenCTT\bin\Release
 copy $(TargetPath) $(SolutionDir)\OpenCTT\bin\Debug</PostBuildEvent>
   </PropertyGroup>
+-->
 </Project>

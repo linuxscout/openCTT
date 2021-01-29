@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{7C8C18B4-0A5C-451D-AF01-5AB969488F08}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OpenCTT/MyStrings/AppFormSchool.fr-FR.resx">
+    <Files>
+      <File FileName="OpenCTT/MyStrings/AddTermForm.fr-FR.resx" Line="46" Column="46" />
+      <File FileName="OpenCTT/MyStrings/AppFormSchool.fr-FR.resx" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OCTTSolution" expanded="True">
+            <Node name="OCTTProject" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Commands" expanded="True" />
+              <Node name="Forms" expanded="True">
+                <Node name="AllowedTimeSlotsForm.cs" expanded="True" />
+                <Node name="RoomsRestrictionForm.cs" expanded="True" />
+                <Node name="SearchForm.cs" expanded="True" />
+                <Node name="SettingsForm.cs" expanded="True" />
+                <Node name="SoftConsCoursesBaseSettingsForm.cs" expanded="True" />
+              </Node>
+              <Node name="Misc" expanded="True">
+                <Node name="DayHourCornerLabel.cs" expanded="True" />
+                <Node name="octtfileschema.xsd" expanded="True" />
+              </Node>
+              <Node name="Model" expanded="True" />
+              <Node name="MyStrings" expanded="True">
+                <Node name="AppFormSchool.fr-FR.resx" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.OCTTProject PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
