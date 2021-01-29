@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
-	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
 		<xsd:element name="root" msdata:IsDataSet="true">
 			<xsd:complexType>
 				<xsd:choice maxOccurs="unbounded">
 					<xsd:element name="data">
 						<xsd:complexType>
 							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
 							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" />
-							<xsd:attribute name="type" type="xsd:string" />
-							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
 						</xsd:complexType>
 					</xsd:element>
 					<xsd:element name="resheader">
 						<xsd:complexType>
 							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
 							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
 						</xsd:complexType>
 					</xsd:element>
 				</xsd:choice>
@@ -40,57 +40,57 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="dayHourLabel.text">
-		<value>Day/Hour</value>
+		<value>Jour/Heure</value>
 	</data>
 	<data name="dayMonday.text">
-		<value>MON</value>
+		<value>LUN</value>
 	</data>
 	<data name="dayTuesday.text">
-		<value>TUE</value>
+		<value>MAR</value>
 	</data>
 	<data name="dayWednesday.text">
-		<value>WED</value>
+		<value>MER</value>
 	</data>
 	<data name="dayThursday.text">
-		<value>THU</value>
+		<value>JEU</value>
 	</data>
 	<data name="dayFriday.text">
-		<value>FRI</value>
+		<value>VEN</value>
 	</data>
 	<data name="daySaturday.text">
-		<value>SAT</value>
+		<value>SAM</value>
 	</data>
 	<data name="daySunday.text">
-		<value>SUN</value>
+		<value>DIM</value>
 	</data>
 	<data name="_cancelButton.Text">
-		<value>Cancel</value>
+		<value>Annuler</value>
 	</data>
 	<data name="formtitle.Text">
-		<value>Defining allowed/unallowed time slots</value>
+		<value>Définition des créneau horaire</value>
 	</data>
 	<data name="checkChangeEduProgram.msb.notsuccessfull.message">
-		<value>The change of allowed/unallowed time-slots for selected educational program is not executed. There is at least one unallowed time-slot for that there is allready defined lesson in timetable!</value>
+		<value>Le changement des restrictions liées aux salles pour le groupe sélectionné n'est pas accompli car il y a au moins une salle qui est omise dans la liste des salles possibles mais pour cela il est déjà défini au moins une séance du groupe sélectionné!</value>
 	</data>
 	<data name="checkChangeEduProgram.msb.notsuccessfull.caption">
-		<value>Defining allowed/unallowed time-slots not successfull</value>
+		<value>Echec de définition des créneau horaire</value>
 	</data>
 	<data name="checkChangeEduProgramGroup.msb.notsuccessfull.message">
-		<value>The change of allowed/unallowed time-slots for selected educational program group is not executed. There is at least one unallowed time-slot for that there is allready defined lesson in timetable for at least one educational program!</value>
+		<value>Le changement des restrictions liées aux créneaux pour le groupe sélectionné n'est pas accompli car il y a au moins un créneau alloué pour le groupe sélectionné!</value>
 	</data>
 	<data name="checkChangeEduProgramGroup.msb.notsuccessfull.caption">
-		<value>Defining allowed/unallowed time-slots not successfull</value>
+		<value>Echec de définition des créneau horaire</value>
 	</data>
 	<data name="checkChangeTeacher.msb.notsuccessfull.message">
-		<value>The change of allowed/unallowed time-slots for selected teacher is not executed. There is at least one unallowed time-slot for that there is allready defined lesson in timetable for selected teacher!</value>
+		<value>Le changement des restrictions liées aux créneaux pour le professeur sélectionné n'est pas accompli car il y a au moins un créneau alloué au enseignantsélectionné!</value>
 	</data>
 	<data name="checkChangeTeacher.msb.notsuccessfull.caption">
-		<value>Defining allowed/unallowed time-slots not successfull</value>
+		<value>Echec de définition des créneau horaire</value>
 	</data>
 	<data name="checkChangeRoom.msb.notsuccessfull.message">
-		<value>The change of allowed/unallowed time-slots for selected room is not executed. There is at least one unallowed time-slot for that there is allready defined lesson in selected room!</value>
+		<value>Le changement des restrictions liées aux créneaux pour la salle sélectionnée n'est pas accompli car il y a au moinsun créneau alloué pour cette salle!</value>
 	</data>
 	<data name="checkChangeRoom.msb.notsuccessfull.caption">
-		<value>Defining allowed/unallowed time-slots not successfull</value>
+		<value>Echec de définition des créneau horaire</value>
 	</data>
 </root>

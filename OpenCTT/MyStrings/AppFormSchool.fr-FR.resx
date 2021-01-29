@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -118,450 +118,450 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="_printChoiceEPMenuItem.Text" xml:space="preserve">
-    <value>For classes</value>
+    <value>Pour Classes</value>
   </data>
   <data name="_addEPGMenuItem.Text" mimetype="">
-    <value>Add new educational program group</value>
+    <value>Ajouter une promotion</value>
   </data>
   <data name="_epgMenuItem.Text" xml:space="preserve">
-    <value>Educational program group</value>
+    <value>Promotion</value>
   </data>
   <data name="_epgPropertiesMenuItem.Text" xml:space="preserve">
-    <value>Educational program group properties</value>
+    <value>Propriétés de la promotion</value>
   </data>
   <data name="_addEPMenuItem.Text" xml:space="preserve">
-    <value>Add class</value>
+    <value>Ajouter une classe</value>
   </data>
   <data name="_delEPGMenuItem.Text" xml:space="preserve">
-    <value>Delete educational program group</value>
+    <value>Supprimer une promotion</value>
   </data>
   <data name="_epgPrintTTForAllEPsMenuItem.Text" xml:space="preserve">
-    <value>Print timetable for all belonging educational programs</value>
+    <value>Imprimer l'emploi de temps  de tous les groupes appartenant</value>
   </data>
   <data name="_epMenuItem.Text" xml:space="preserve">
-    <value>Class</value>
+    <value>Classe</value>
   </data>
   <data name="_epPropertiesMenuItem.Text" xml:space="preserve">
-    <value>Class properties</value>
+    <value>Propriété de classe</value>
   </data>
   <data name="_delEPMenuItem.Text" xml:space="preserve">
-    <value>Delete class</value>
+    <value>Supprimer une classe</value>
   </data>
   <data name="_epPrintTTMenuItem.Text" xml:space="preserve">
-    <value>Print timetable for class</value>
+    <value>Imprimer l'emploi de temps pour classe</value>
   </data>
   <data name="_fileMenuItem.Text" xml:space="preserve">
-    <value>File</value>
+    <value>Fichier</value>
   </data>
   <data name="_newDocMenuItem.Text" xml:space="preserve">
-    <value>New document</value>
+    <value>Nouveau document</value>
   </data>
   <data name="_openDocMenuItem.Text" xml:space="preserve">
-    <value>Open document</value>
+    <value>Ouvrir document</value>
   </data>
   <data name="_saveDocMenuItem.Text" xml:space="preserve">
-    <value>Save</value>
+    <value>Enregistrer</value>
   </data>
   <data name="_saveAsDocMenuItem.Text" xml:space="preserve">
-    <value>Save as...</value>
+    <value>Enregistrer sous...</value>
   </data>
   <data name="_closeDocMenuItem.Text" xml:space="preserve">
-    <value>Close document</value>
+    <value>Fermer document</value>
   </data>
   <data name="_printTimetableMenuItem.Text" xml:space="preserve">
-    <value>Print timetable</value>
+    <value>Imprimer l'emploi de temps</value>
   </data>
   <data name="_printChoiceTeacherMenuItem.Text" xml:space="preserve">
-    <value>For teachers</value>
+    <value>Pour enseignant</value>
   </data>
   <data name="_printChoiceRoomMenuItem.Text" xml:space="preserve">
-    <value>For rooms</value>
+    <value>Pour les salles</value>
   </data>
   <data name="_exitAppMenuItem.Text" xml:space="preserve">
-    <value>Exit program</value>
+    <value>Quiter</value>
   </data>
   <data name="_docMenuItem.Text" xml:space="preserve">
     <value>Document</value>
   </data>
   <data name="_addTeacherMenuItem.Text" xml:space="preserve">
-    <value>Add teacher</value>
+    <value>Ajouter un enseignant</value>
   </data>
   <data name="_delAllTeachersMenuItem.Text" xml:space="preserve">
-    <value>Delete all teachers</value>
+    <value>Supprimer tous les enseignants</value>
   </data>
   <data name="_printTimetableAllTeachersMenuItem.Text" xml:space="preserve">
-    <value>Print timetable for all teachers</value>
+    <value>Imprimer les Emploi de temps de tous les enseignants</value>
   </data>
   <data name="_addRoomMenuItem.Text" xml:space="preserve">
-    <value>Add room</value>
+    <value>Ajouter une salle</value>
   </data>
   <data name="_delAllRoomsMenuItem.Text" xml:space="preserve">
-    <value>Delete all rooms</value>
+    <value>Supprimer toutes les salles</value>
   </data>
   <data name="_printTimetableAllRoomsMenuItem.Text" xml:space="preserve">
-    <value>Print timetable for all rooms</value>
+    <value>Imprimer l'emploi de temps pour toutes les salles</value>
   </data>
   <data name="_docPropertiesMenuItem.Text" xml:space="preserve">
-    <value>Document properties</value>
+    <value>Propriétés du document</value>
   </data>
   <data name="_searchMenuItem.Text" xml:space="preserve">
-    <value>Find</value>
+    <value>Rechercher</value>
   </data>
   <data name="_epgATSMenuItem.Text" xml:space="preserve">
-    <value>Define allowed/unallowed time-slots</value>
+    <value>Définition des créneau horaire</value>
   </data>
   <data name="_addCourseMenuItem.Text" xml:space="preserve">
-    <value>Add new course</value>
+    <value>Ajouter une nouvelle matière</value>
   </data>
   <data name="_addCourseFromClipboardMenuItem.Text" xml:space="preserve">
-    <value>Add new course from clipboard</value>
+    <value>Ajouter une nouvelle matière à partir du press-papier</value>
   </data>
   <data name="_epATSMenuItem.Text" xml:space="preserve">
-    <value>Define allowed/unallowed time-slots</value>
+    <value>Définition des créneau horaire</value>
   </data>
   <data name="_clearTimetableMenuItem.Text" xml:space="preserve">
-    <value>Clear timetable</value>
+    <value>Vider l'emploi de temps</value>
   </data>
   <data name="_epDelAllMyCoursesMenuItem.Text" xml:space="preserve">
-    <value>Delete all belonging courses</value>
+    <value>Supprimer toutes les matières incluses?</value>
   </data>
   <data name="_courseMenuItem.Text" xml:space="preserve">
-    <value>Course</value>
+    <value>Matière</value>
   </data>
   <data name="_coursePropertiesMenuItem.Text" xml:space="preserve">
-    <value>Course properties</value>
+    <value>Propriétés de la matières </value>
   </data>
   <data name="_courseRoomsRestrictionMenuItem.Text" xml:space="preserve">
-    <value>Restrict possible rooms</value>
+    <value>Restrictions des salles possibles</value>
   </data>
   <data name="_coursesToHoldTogetherMenuItem.Text" xml:space="preserve">
-    <value>Define courses to hold together</value>
+    <value>Association des cours</value>
   </data>
   <data name="_convertToGroupsMenuItem.Text" xml:space="preserve">
-    <value>Convert to groups</value>
+    <value>Convertir en groupe</value>
   </data>
   <data name="_delCourseMenuItem.Text" xml:space="preserve">
-    <value>Delete course</value>
+    <value>Supprimer une matière</value>
   </data>
   <data name="_courseStoreToClipboardMenuItem.Text" xml:space="preserve">
-    <value>Copy course to clipboard</value>
+    <value>Copier la matière vers le press-papier</value>
   </data>
   <data name="_teacherMenuItem.Text" xml:space="preserve">
-    <value>Teacher</value>
+    <value>Enseignant</value>
   </data>
   <data name="_teacherPropertiesMenuItem.Text" xml:space="preserve">
-    <value>Teacher properties</value>
+    <value>Propriétés d'enseignant</value>
   </data>
   <data name="_teacherATSMenuItem.Text" xml:space="preserve">
-    <value>Define allowed/unallowed time-slots</value>
+    <value>Définition des créneau horaire</value>
   </data>
   <data name="_teacherRoomsRestrictionMenuItem.Text" xml:space="preserve">
-    <value>Restrict possible rooms</value>
+    <value>Restrictions des salles possibles</value>
   </data>
   <data name="_delTeacherMenuItem.Text" xml:space="preserve">
-    <value>Delete teacher</value>
+    <value>Supprimer un enseignant</value>
   </data>
   <data name="_teacherPrintTTMenuItem.Text" xml:space="preserve">
-    <value>Print timetable for teacher</value>
+    <value>Imprimer l'emploi de temps pour enseigant</value>
   </data>
   <data name="_roomMenuItem.Text" xml:space="preserve">
-    <value>Room</value>
+    <value>Salle</value>
   </data>
   <data name="_roomPropertiesMenuItem.Text" xml:space="preserve">
-    <value>Room properties</value>
+    <value>Propriété de Salle</value>
   </data>
   <data name="_roomATSMenuItem.Text" xml:space="preserve">
-    <value>Define allowed/unallowed time-slots</value>
+    <value>Définition des créneau horaire</value>
   </data>
   <data name="_delRoomMenuItem.Text" xml:space="preserve">
-    <value>Delete room</value>
+    <value>Supprimer une salle</value>
   </data>
   <data name="_roomPrintTTMenuItem.Text" xml:space="preserve">
-    <value>Print timetable for room</value>
+    <value>Imprimer l'emploi de temps pour salle</value>
   </data>
   <data name="_toolsMenuItem.Text" xml:space="preserve">
-    <value>Tools</value>
+    <value>Outils</value>
   </data>
   <data name="_settingsMenuItem.Text" xml:space="preserve">
-    <value>Settings</value>
+    <value>Préférences </value>
   </data>
   <data name="_helpMenuItem.Text" xml:space="preserve">
-    <value>Help</value>
+    <value>Aide</value>
   </data>
   <data name="_helpContentMenuItem.Text" xml:space="preserve">
-    <value>Contents</value>
+    <value>Contenu</value>
   </data>
   <data name="_aboutMenuItem.Text" xml:space="preserve">
-    <value>About</value>
+    <value>A propos</value>
   </data>
   <data name="_newDocToolBarButton.ToolTipText" xml:space="preserve">
-    <value>New document</value>
+    <value>Nouveau document</value>
   </data>
   <data name="_openDocToolBarButton.ToolTipText" xml:space="preserve">
-    <value>Open document</value>
+    <value>Ouvrir document</value>
   </data>
   <data name="_saveDocToolBarButton.ToolTipText" xml:space="preserve">
-    <value>Save</value>
+    <value>Enregistrer</value>
   </data>
   <data name="_closeDocToolBarButton.ToolTipText" xml:space="preserve">
-    <value>Close</value>
+    <value>Fermer</value>
   </data>
   <data name="_undoToolBarButton.ToolTipText" xml:space="preserve">
-    <value>Undo</value>
+    <value>Annuler</value>
   </data>
   <data name="_redoToolBarButton.ToolTipText" xml:space="preserve">
-    <value>Redo</value>
+    <value>Refaire</value>
   </data>
   <data name="_searchToolBarButton.ToolTipText" xml:space="preserve">
-    <value>Find</value>
+    <value>Rechercher</value>
   </data>
   <data name="_printToolBarButton.ToolTipText" xml:space="preserve">
-    <value>Print timetable</value>
+    <value>Imprimer l'emploi de temps</value>
   </data>
   <data name="_helpToolBarButton.ToolTipText" xml:space="preserve">
-    <value>Help</value>
+    <value>Aide</value>
   </data>
   <data name="_coursesTab.Text" xml:space="preserve">
-    <value>Courses</value>
+    <value>Matières</value>
   </data>
   <data name="_columnHeaderULLVTeachers2.Text" xml:space="preserve">
-    <value>Class</value>
+    <value>Classe</value>
   </data>
   <data name="_columnHeaderULLVTeachers3.Text" xml:space="preserve">
-    <value>Semester</value>
+    <value>Semestre</value>
   </data>
   <data name="_teachersTab.Text" xml:space="preserve">
-    <value>Teachers</value>
+    <value>Enseignants</value>
   </data>
   <data name="_roomsTab.Text" xml:space="preserve">
-    <value>Rooms</value>
+    <value>Salles</value>
   </data>
   <data name="_columnHeaderULLVCourses1.Text" xml:space="preserve">
-    <value>Unallocated lesson</value>
+    <value>Séance non allouée</value>
   </data>
   <data name="_columnHeaderULLVCourses2.Text" xml:space="preserve">
-    <value>Teacher</value>
+    <value>Enseignant</value>
   </data>
   <data name="_columnHeaderULLVTeachers1.Text" xml:space="preserve">
-    <value>Unallocated lesson</value>
+    <value>Séance non allouée</value>
   </data>
   <data name="deleteEPG_Click.msb.message" xml:space="preserve">
-    <value>Do you really want to delete selected educational program group?</value>
+    <value>Voulez-vous vraiment supprimer la  promotion sélectionnée?</value>
   </data>
   <data name="deleteEPG_Click.msb.caption" xml:space="preserve">
-    <value>Delete educational program group?</value>
+    <value>Supprimer une promotion?</value>
   </data>
   <data name="deleteEPG_Click.msb.notdel.message" xml:space="preserve">
-    <value>Educational program group is not deleted because at least one belonging class has in timetable at least one allocated lesson!</value>
+    <value>La promotion n'est pas supprimée car il existe au moins une séances affecté!</value>
   </data>
   <data name="deleteEPG_Click.msb.notdel.caption" xml:space="preserve">
-    <value>Educational program group not deleted</value>
+    <value>La nouvelle promotion n'est pas supprimée</value>
   </data>
   <data name="addCourseFromClipboard_Click.msb.notadded.reason.teacher.message" xml:space="preserve">
-    <value>New course is not created because there is no teacher for the course in clipboard!</value>
+    <value>Une nouvelle matière n'est pas créé car il n'y a pas un enseignant affecté pour la matière dans le press-papier</value>
   </data>
   <data name="addCourseFromClipboard_Click.msb.notadded.reason.teacher.caption" xml:space="preserve">
-    <value>Course from clipboard not created</value>
+    <value>Matière à partir du press-papier non crée</value>
   </data>
   <data name="addCourseFromClipboard_Click.msb.notadded.reason.name.message" xml:space="preserve">
-    <value>New course is not created because there is already a course in class with the same name or short name!</value>
+    <value>Une nouvelle matière n'est pas créé car il y a déjà dans le groupe une matière avec le même nom complet ou court!</value>
   </data>
   <data name="addCourseFromClipboard_Click.msb.notadded.reason.name.caption" xml:space="preserve">
-    <value>Course from clipboard not created</value>
+    <value>Matière à partir du press-papier non crée</value>
   </data>
   <data name="deleteAllCourses_Click.msb.confirm.message" xml:space="preserve">
-    <value>Do you really want to delete all belonging courses?</value>
+    <value>Voulez-vous vraiment supprimer toutes les matières appartenantes?</value>
   </data>
   <data name="deleteAllCourses_Click.msb.confirm.caption" xml:space="preserve">
-    <value>Delete all courses?</value>
+    <value>Supprimer toutes les matières?</value>
   </data>
   <data name="deleteAllCourses_Click.msb.notalldeleted.message" xml:space="preserve">
-    <value>One or more courses are not deleted because thay have at least one allocated lesson. To delete these courses, you have to move all their allocated lessons from timetable to unallocated lessons.</value>
+    <value>Un ou plusieurs cours ne sont pas supprimés car ils ont au moins une séance attribuée. Pour supprimer ces cours, vous devez déplacer toutes les séances attribuées de l'horaire vers les séance non attribuées.</value>
   </data>
   <data name="deleteAllCourses_Click.msb.notalldeleted.caption" xml:space="preserve">
-    <value>All courses not deleted</value>
+    <value>Tous les matières non supprimées</value>
   </data>
   <data name="deleteEduProgram_Click.msb.confirm.message" xml:space="preserve">
-    <value>Do you really want to delete selected class?</value>
+    <value>Voulez-vous vraiment supprimer la classe sélectionnée?</value>
   </data>
   <data name="deleteEduProgram_Click.msb.confirm.caption" xml:space="preserve">
-    <value>Delete class?</value>
+    <value>Supprimer une classe?</value>
   </data>
   <data name="deleteEduProgram_Click.msb.notdeleted.message" xml:space="preserve">
-    <value>Class is not deleted because it have at least one allocated lesson in timetable. To delete it, you have to move all allocated lessons from timetable to unallocated lessons.</value>
+    <value>La classe n'est pas supprimé car ils ont au moins une séance attribuée.</value>
   </data>
   <data name="deleteEduProgram_Click.msb.notdeleted.caption" xml:space="preserve">
-    <value>Class not deleted</value>
+    <value>Classe n'est pas supprimée</value>
   </data>
   <data name="clearTimetable_Click.msb.confirm.message" xml:space="preserve">
-    <value>Do you really want to move all allocated lessons from timetable to unallocated lessons?</value>
+    <value>Voulez-vous vraiment déplacer toutes les séances attribuées du l'emploi de temps aux séances non attribuées?</value>
   </data>
   <data name="clearTimetable_Click.msb.confirm.caption" xml:space="preserve">
-    <value>Clear timetable?</value>
+    <value>Vider l'emploi de temps</value>
   </data>
   <data name="deleteCourse_Click.msb.confirm.message" xml:space="preserve">
-    <value>Do you really want to delete selected course?</value>
+    <value>Voulez-vous vraiment supprimer la matière sélectionnée?</value>
   </data>
   <data name="deleteCourse_Click.msb.confirm.caption" xml:space="preserve">
-    <value>Delete course?</value>
+    <value>Supprimer une matière?</value>
   </data>
   <data name="deleteCourse_Click.msb.notdeleted.message" xml:space="preserve">
-    <value>Course is not deleted because it has at least one allocated lesson. To delete this course, you have to move all its allocated lessons from timetable to unallocated lessons.</value>
+    <value>Un ou plusieurs cours ne sont pas supprimés car ils ont au moins une séance attribuée.</value>
   </data>
   <data name="deleteCourse_Click.msb.notdeleted.caption" xml:space="preserve">
-    <value>All courses not deleted</value>
+    <value>Tous les matières non supprimées</value>
   </data>
   <data name="roomRestrictionForCourse_Click.course.text" xml:space="preserve">
-    <value>course</value>
+    <value>Matière</value>
   </data>
   <data name="roomRestrictionForCourse_Click.group.text" xml:space="preserve">
-    <value>group</value>
+    <value>s/groupe</value>
   </data>
   <data name="deleteAllTeachers_Click.msb.confirm.message" xml:space="preserve">
-    <value>Do you really want to delete all teachers?</value>
+    <value>Voulez-vous vraiment supprimer tous les enseignants?</value>
   </data>
   <data name="deleteAllTeachers_Click.msb.confirm.caption" xml:space="preserve">
-    <value>Delete all teachers?</value>
+    <value>Supprimer tous les enseignants?</value>
   </data>
   <data name="deleteAllTeachers_Click.msb.notalldeleted.message" xml:space="preserve">
-    <value>At least one teacher is not deleted. Undeleted teacher is set as course teacher for at least one course.</value>
+    <value>Au moins un enseignant n'est pas supprimé car il y a au moins une séance allouée pour lui.</value>
   </data>
   <data name="deleteAllTeachers_Click.msb.notalldeleted.caption" xml:space="preserve">
-    <value>All teachers not deleted</value>
+    <value>Tous les enseignants non supprimé</value>
   </data>
   <data name="roomRestrictionForTeacher_Click.forteacher.text" xml:space="preserve">
-    <value>teacher</value>
+    <value>enseignant</value>
   </data>
   <data name="deleteTeacher_Click.msb.confirm.message" xml:space="preserve">
-    <value>Do you really want to delete selected teacher?</value>
+    <value>Voulez-vous vraiment supprimer l'enseignant sélectionné?</value>
   </data>
   <data name="deleteTeacher_Click.msb.confirm.caption" xml:space="preserve">
-    <value>Delete teacher?</value>
+    <value>Supprimer enseignant?</value>
   </data>
   <data name="deleteTeacher_Click.msb.notdeleted.message" xml:space="preserve">
-    <value>Teacher is not deleted because he/she is set as course teacher for at least one course.</value>
+    <value>L'enseignant n'est pas supprimé car il y a au moins une séance allouée pour lui.</value>
   </data>
   <data name="deleteTeacher_Click.msb.notdeleted.caption" xml:space="preserve">
-    <value>Teacher not deleted</value>
+    <value>Enseignant non supprimé</value>
   </data>
   <data name="doctypeslist.school.text" xml:space="preserve">
-    <value>School</value>
+    <value>Ecole</value>
   </data>
   <data name="doctypeslist.university.text" xml:space="preserve">
-    <value>University</value>
+    <value>Université</value>
   </data>
   <data name="daytext.monday" xml:space="preserve">
-    <value>MONDAY</value>
+    <value>LUNDI</value>
   </data>
   <data name="daytext.tuesday" xml:space="preserve">
-    <value>TUESDAY</value>
+    <value>MARDI</value>
   </data>
   <data name="daytext.wednesday" xml:space="preserve">
-    <value>WEDNESDAY</value>
+    <value>MERCREDI</value>
   </data>
   <data name="daytext.thursday" xml:space="preserve">
-    <value>THURSDAY</value>
+    <value>JEUDI</value>
   </data>
   <data name="daytext.friday" xml:space="preserve">
-    <value>FRIDAY</value>
+    <value>VENDREDI</value>
   </data>
   <data name="daytext.saturday" xml:space="preserve">
-    <value>SATURDAY</value>
+    <value>SAMEDI</value>
   </data>
   <data name="daytext.sunday" xml:space="preserve">
-    <value>SUNDAY</value>
+    <value>DIMANCHE</value>
   </data>
   <data name="deleteAllRooms_Click.msb.confirm.message" xml:space="preserve">
-    <value>Do you really want to delete all rooms?</value>
+    <value>Voulez-vous vraiment supprimer toutes les salles?</value>
   </data>
   <data name="deleteAllRooms_Click.msb.confirm.caption" xml:space="preserve">
-    <value>Delete all rooms?</value>
+    <value>Supprimer toutes les salles?</value>
   </data>
   <data name="deleteAllRooms_Click.msb.notalldeleted.message" xml:space="preserve">
-    <value>At least one room is not deleted. For each undeleted room there is at least one lesson allocated in that room.</value>
+    <value>Il y a au moins une salle non supprimée car il y a au moins une séance allouée dans cette salle.</value>
   </data>
   <data name="deleteAllRooms_Click.msb.notalldeleted.caption" xml:space="preserve">
-    <value>All rooms not deleted</value>
+    <value>Tous les salles non supprimé</value>
   </data>
   <data name="deleteRoom_Click.msb.confirm.message" xml:space="preserve">
-    <value>Do you really want to delete selected room?</value>
+    <value>Voulez-vous vraiment supprimer la salle sélectionnée?</value>
   </data>
   <data name="deleteRoom_Click.msb.confirm.caption" xml:space="preserve">
-    <value>Delete room?</value>
+    <value>Supprimer une salle?</value>
   </data>
   <data name="deleteRoom_Click.msb.notdeleted.message" xml:space="preserve">
-    <value>Room is not deleted because there is at least one lesson allocated in that room.</value>
+    <value>La salle n'est pas supprimée car il y a au moins une séance allouée dans cette salle.</value>
   </data>
   <data name="deleteRoom_Click.msb.notdeleted.caption" xml:space="preserve">
-    <value>Room not deleted</value>
+    <value>Salle non supprimée</value>
   </data>
   <data name="ctv.timetableTab.for.Text" xml:space="preserve">
-    <value>Timetable for class:</value>
+    <value>EDT de la classe</value>
   </data>
   <data name="ctv.timetableTab.sem.text" xml:space="preserve">
-    <value>. year</value>
+    <value>. année</value>
   </data>
   <data name="rtv.timetableTab.for.Text" xml:space="preserve">
-    <value>Timetable for room:</value>
+    <value>EDT de salle</value>
   </data>
   <data name="ttv.timetableTab.for.Text" xml:space="preserve">
-    <value>Timetable for teacher:</value>
+    <value>Emploi de temps pour enseignant</value>
   </data>
   <data name="doOpenDocAction.msb.filenotfound.message1" xml:space="preserve">
-    <value>An error occured during reading of the file. File</value>
+    <value>Une erreur s'est produite lors de la lecture du fichier. Fichier</value>
   </data>
   <data name="doOpenDocAction.msb.filenotfound.message2" xml:space="preserve">
-    <value>not found!</value>
+    <value>non trouvé!</value>
   </data>
   <data name="doOpenDocAction.msb.filenotfound.caption" xml:space="preserve">
-    <value>Error</value>
+    <value>Erreur</value>
   </data>
   <data name="checkSaveBeforeCloseDocument.msb.confirm.message1" xml:space="preserve">
     <value>Document</value>
   </data>
   <data name="checkSaveBeforeCloseDocument.msb.confirm.message2" xml:space="preserve">
-    <value>is changed. Do you want to save changes?</value>
+    <value>est changé, voulez vous enregistrer les changements?</value>
   </data>
   <data name="checkSaveBeforeCloseDocument.msb.confirm.caption" xml:space="preserve">
-    <value>Close document?</value>
+    <value>Fermer document?</value>
   </data>
   <data name="addNewDayMenuItem.Text" xml:space="preserve">
-    <value>Add day</value>
+    <value>Ajouter un jour</value>
   </data>
   <data name="addNewTermMenuItem.Text" xml:space="preserve">
-    <value>Add term</value>
+    <value>Ajouter un créneau</value>
   </data>
   <data name="_printTeacherListMenuItem.Text" xml:space="preserve">
-    <value>Print teacher list</value>
+    <value>Imprimer la liste des enseignants</value>
   </data>
   <data name="_printTeacherHoursMenuItem.Text" xml:space="preserve">
-    <value>Print teacher hours</value>
+    <value>Imprimer les heures pour enseignant</value>
   </data>
   <data name="_printRoomsListMenuItem.Text" xml:space="preserve">
-    <value>Print rooms list</value>
+    <value>Imprimer la liste des salles</value>
   </data>
   <data name="_scBaseTeachersMenuItem.Text" xml:space="preserve">
-    <value>Base soft constraints for teachers</value>
+    <value>Contraintes souples de base pour les enseignants</value>
   </data>
   <data name="_scTeacherMenuItem.Text" xml:space="preserve">
-    <value>Soft constraints settings for selected teacher</value>
+    <value>Configuration des contraintes souples pour l'enseignant selectionné</value>
   </data>
   <data name="_scBaseEPMenuItem.Text" xml:space="preserve">
-    <value>Base soft constraints for classes</value>
+    <value>Contraintes souples de base pour les classes</value>
   </data>
   <data name="_scEduProgramMenuItem.Text" xml:space="preserve">
-    <value>Soft constraints settings for selected class</value>
+    <value>Configuration des contraintes souples pour la classe sélectionnée</value>
   </data>
   <data name="_autoTTMenuItem.Text" xml:space="preserve">
-    <value>Automated timetabling</value>
+    <value>Planification automatique</value>
   </data>
   <data name="_scBaseCoursesMenuItem.Text" xml:space="preserve">
-    <value>Base soft constraints for courses</value>
+    <value>Contraintes souples de base pour les cours</value>
   </data>
   <data name="_scCourseMenuItem.Text" xml:space="preserve">
-    <value>Soft constraints settings for selected course</value>
+    <value>Configuration des contraintes souples pour la matière selectionnée</value>
   </data>
   <data name="_printMasterTimetableMenuItem.Text" xml:space="preserve">
-    <value>Master timetable</value>
+    <value>EDT Master</value>
   </data>
 </root>

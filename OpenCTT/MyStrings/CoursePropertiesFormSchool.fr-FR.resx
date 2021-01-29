@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
-	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
 		<xsd:element name="root" msdata:IsDataSet="true">
 			<xsd:complexType>
 				<xsd:choice maxOccurs="unbounded">
 					<xsd:element name="data">
 						<xsd:complexType>
 							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
 							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" />
-							<xsd:attribute name="type" type="xsd:string" />
-							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
 						</xsd:complexType>
 					</xsd:element>
 					<xsd:element name="resheader">
 						<xsd:complexType>
 							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
 							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
 						</xsd:complexType>
 					</xsd:element>
 				</xsd:choice>
@@ -40,21 +40,21 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="Form_Closing.msb.coursenotadded.message">
-		<value>New course is not created because there is already course in class with the same full or short name!</value>
+		<value>Une nouvelle matière n'est pas créé car il y a déjà dans le groupe une matière avec le même nom complet ou court!</value>
 	</data>
 	<data name="Form_Closing.msb.coursenotadded.caption">
-		<value>New course not created</value>
+		<value>Nouvelle matière n'est pas crée</value>
 	</data>
 	<data name="Form_Closing.msb.coursedatanotchanged.message">
-		<value>Course data are not changed because for selected class there is already a course with the same full or short name!</value>
+		<value>La matière n'est pas changée car il y a déjà dans le groupe une matière avec le même nom complet ou court!</value>
 	</data>
 	<data name="Form_Closing.msb.coursedatanotchanged.caption">
-		<value>Course properties not changed</value>
+		<value>Les propriétés de la matières ne sont pas changé</value>
 	</data>
 	<data name="_numOfLessPerWeekTextBox_TextChanged._errorProvider1.errortext">
-		<value>Number of lessons per week must be greater then 0 and less than 100!</value>
+		<value>Le nombre de séances par semaine doit être supérieur à 0 et inférieur à 100!  </value>
 	</data>
 	<data name="_numOfEnrStudentsTextBox_TextChanged._errorProvider2.errortext">
-		<value>Number of enrolled students must be greater than zero!</value>
+		<value>Le nombre d'étudiants doit être supérieur à zéro! </value>
 	</data>
 </root>

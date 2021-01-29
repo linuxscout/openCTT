@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
-	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
 		<xsd:element name="root" msdata:IsDataSet="true">
 			<xsd:complexType>
 				<xsd:choice maxOccurs="unbounded">
 					<xsd:element name="data">
 						<xsd:complexType>
 							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
 							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" />
-							<xsd:attribute name="type" type="xsd:string" />
-							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
 						</xsd:complexType>
 					</xsd:element>
 					<xsd:element name="resheader">
 						<xsd:complexType>
 							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
 							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
 						</xsd:complexType>
 					</xsd:element>
 				</xsd:choice>
@@ -40,18 +40,19 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="Form_Closing.msb.epgnotcreated.message">
-		<value>New educational program group is not created because there is already educational program group with the same name!</value>
+		<value>La nouvelle promotion n'est pas crée car il existe déjà une promotion portant le même nom et le même semestre!</value>
 	</data>
 	<data name="Form_Closing.msb.epgnotcreated.caption">
-		<value>New educational program group not created</value>
+		<value>La nouvelle promotion n'est pas crée</value>
 	</data>
 	<data name="Form_Closing.msb.epgdatanotchanged.message">
-		<value>Educational program group name is not changed because there is already educational program group with the same name.</value>
+		<value> 
+La nouvelle promotion n'est pas changé car il existe déjà une promotion portant le même nom et le même semestre!</value>
 	</data>
 	<data name="Form_Closing.msb.epgdatanotchanged.caption">
-		<value>Educational program group name not changed</value>
+		<value>Le nom de la promotion n'est pas changées</value>
 	</data>
 	<data name="this.Text">
-		<value>Educational program group properties</value>
+		<value>Propriétés de la promotion</value>
 	</data>
 </root>

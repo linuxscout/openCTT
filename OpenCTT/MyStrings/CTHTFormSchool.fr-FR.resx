@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <root>
-	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
 		<xsd:element name="root" msdata:IsDataSet="true">
 			<xsd:complexType>
 				<xsd:choice maxOccurs="unbounded">
 					<xsd:element name="data">
 						<xsd:complexType>
 							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
 							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" />
-							<xsd:attribute name="type" type="xsd:string" />
-							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string"/>
+							<xsd:attribute name="type" type="xsd:string"/>
+							<xsd:attribute name="mimetype" type="xsd:string"/>
 						</xsd:complexType>
 					</xsd:element>
 					<xsd:element name="resheader">
 						<xsd:complexType>
 							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
 							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
+							<xsd:attribute name="name" type="xsd:string" use="required"/>
 						</xsd:complexType>
 					</xsd:element>
 				</xsd:choice>
@@ -40,33 +40,33 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="Form_Load._topLabel.Text1">
-		<value>For the course</value>
+		<value>Pour la matière</value>
 	</data>
 	<data name="Form_Load._topLabel.Text2">
-		<value>currently are defined folowing courses which will be hold together:</value>
+		<value>actuellement, les cours suivants se dérouleront ensemble:</value>
 	</data>
 	<data name="Form_Load.listView.textEduProgram.sem">
-		<value>year</value>
+		<value>année</value>
 	</data>
 	<data name="columnHeader1.Text">
-		<value>Educational program group</value>
+		<value>Promotion</value>
 	</data>
 	<data name="columnHeader2.Text">
-		<value>Class</value>
+		<value>Classe</value>
 	</data>
 	<data name="columnHeader3.Text">
-		<value>Course</value>
+		<value>Matière</value>
 	</data>
 	<data name="columnHeader4.Text">
-		<value>Educational program group</value>
+		<value>Promotion</value>
 	</data>
 	<data name="columnHeader5.Text">
-		<value>Class</value>
+		<value>Classe</value>
 	</data>
 	<data name="columnHeader6.Text">
-		<value>Course</value>
+		<value>Matière</value>
 	</data>
 	<data name="label1.Text">
-		<value>Note: from one class you can choose maximaly one course.</value>
+		<value>Remarque: Une classe peut choisir maximum une matière.</value>
 	</data>
 </root>

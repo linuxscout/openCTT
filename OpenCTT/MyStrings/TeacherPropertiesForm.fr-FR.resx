@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Form_Closing.msb.teacher_not_created.message" xml:space="preserve">
-    <value>New teacher is not created because there is already teacher with the same data!</value>
+    <value>Le nouveau enseignant n'est pas crée car il existe déjà un enseignant avec les mêmes informations!</value>
   </data>
   <data name="Form_Closing.msb.teacher_not_created.caption" xml:space="preserve">
-    <value>New teacher not created</value>
+    <value>Le nouveau  enseignant n'est pas créé</value>
   </data>
   <data name="Form_Closing.msb.teacher_data_not_changed.message" xml:space="preserve">
-    <value>Teacher's properties are not changed because there is already teacher with the same data!</value>
+    <value>Les données du l'enseignant ne sont pas modifiées car il existe déjà un enseignant avec les même données!</value>
   </data>
   <data name="Form_Closing.msb.teacher_data_not_changed.caption" xml:space="preserve">
-    <value>Teacher data not changed</value>
+    <value>Les données du l'enseignant n'a pas changées</value>
   </data>
   <data name="edurank" xml:space="preserve">
-    <value>Educational rank</value>
+    <value>Grade</value>
   </data>
   <data name="extid" xml:space="preserve">
     <value>Ext. ID</value>
@@ -139,21 +139,21 @@
     <value>Prénom</value>
   </data>
   <data name="name" xml:space="preserve">
-    <value>Nom</value>
+    <value>Nom:::::</value>
   </data>
   <data name="title" xml:space="preserve">
-    <value>Grade</value>
+    <value>Titre</value>
   </data>
   <data name="teacher_list" xml:space="preserve">
-    <value>Teacher List</value>
+    <value>Liste des enseignants</value>
   </data>
   <data name="page" xml:space="preserve">
     <value>Page</value>
   </data>
   <data name="hours_per_week" xml:space="preserve">
-    <value>Hours per Week</value>
+    <value>Houres par semaine</value>
   </data>
   <data name="teacher_hours" xml:space="preserve">
-    <value>Teacher Hours</value>
+    <value>Heures d'enseignants</value>
   </data>
 </root>
