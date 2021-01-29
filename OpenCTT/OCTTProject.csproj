@@ -800,6 +800,35 @@
     <EmbeddedResource Include="MyStrings\EPGPropertiesFormSchool.fr-FR.resx" />
     <EmbeddedResource Include="MyStrings\EPPropertiesFormSchool.fr-FR.resx" />
     <EmbeddedResource Include="MyStrings\EPPropertiesFormUniversity.fr-FR.resx" />
+    <EmbeddedResource Include="MyStrings\TermLabel.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\SearchForm.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\RoomsRestrictionForm.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\RoomSelectionForm.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\Room.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\PrintSelectionForm.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\PdfCreator.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\OCTTDocument.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\ModelOperations.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\FileOperations.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\EPPropertiesFormUniversity.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\EPPropertiesFormSchool.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\EPGPropertiesFormUniversity.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\EPGPropertiesFormSchool.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\EduProgram.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\DayLabel.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\DayHourCornerLabel.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\CTHTFormUniversity.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\CTHTFormSchool.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\CoursePropertiesFormUniversity.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\CoursePropertiesFormSchool.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\CourseConversionToGroupForm.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\Course.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\ATSFormUniversity.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\ATSFormSchool.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\AppFormUniversity.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\AppFormSchool.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\AddTermForm.ar-AR.resx" />
+    <EmbeddedResource Include="MyStrings\TeacherPropertiesForm.ar-AR.resx" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
