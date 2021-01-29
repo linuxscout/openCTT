@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="dayHourLabel.text">
+		<value>Day/Hour</value>
+	</data>
+	<data name="dayMonday.text">
+		<value>MON</value>
+	</data>
+	<data name="dayTuesday.text">
+		<value>TUE</value>
+	</data>
+	<data name="dayWednesday.text">
+		<value>WED</value>
+	</data>
+	<data name="dayThursday.text">
+		<value>THU</value>
+	</data>
+	<data name="dayFriday.text">
+		<value>FRI</value>
+	</data>
+	<data name="daySaturday.text">
+		<value>SAT</value>
+	</data>
+	<data name="daySunday.text">
+		<value>SUN</value>
+	</data>
+	<data name="_cancelButton.Text">
+		<value>Cancel</value>
+	</data>
+	<data name="formtitle.Text">
+		<value>Defining allowed/unallowed time slots</value>
+	</data>
+	<data name="checkChangeEduProgram.msb.notsuccessfull.message">
+		<value>The change of allowed/unallowed time-slots for selected class is not executed. There is at least one unallowed time-slot for that there is allready defined lesson in timetable!</value>
+	</data>
+	<data name="checkChangeEduProgram.msb.notsuccessfull.caption">
+		<value>Defining allowed/unallowed time-slots not successfull</value>
+	</data>
+	<data name="checkChangeEduProgramGroup.msb.notsuccessfull.message">
+		<value>The change of allowed/unallowed time-slots for selected educational program group is not executed. There is at least one unallowed time-slot for that there is allready defined lesson in timetable for at least one class !</value>
+	</data>
+	<data name="checkChangeEduProgramGroup.msb.notsuccessfull.caption">
+		<value>Defining allowed/unallowed time-slots not successfull</value>
+	</data>
+	<data name="checkChangeTeacher.msb.notsuccessfull.message">
+		<value>The change of allowed/unallowed time-slots for selected teacher is not executed. There is at least one unallowed time-slot for that there is allready defined lesson in timetable for selected teacher!</value>
+	</data>
+	<data name="checkChangeTeacher.msb.notsuccessfull.caption">
+		<value>Defining allowed/unallowed time-slots not successfull</value>
+	</data>
+	<data name="checkChangeRoom.msb.notsuccessfull.message">
+		<value>The change of allowed/unallowed time-slots for selected room is not executed. There is at least one unallowed time-slot for that there is allready defined lesson in selected room!</value>
+	</data>
+	<data name="checkChangeRoom.msb.notsuccessfull.caption">
+		<value>Defining allowed/unallowed time-slots not successfull</value>
+	</data>
+</root>

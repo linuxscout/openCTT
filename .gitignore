@@ -26,3 +26,14 @@
 *.exe
 *.out
 *.app
+*.dll
+*.pdb
+OpenCTT/bin/
+OCTTAutomatedTT/bin/
+OCTTAutomatedTT/obj/
+OCTT_MySql_Plugin/obj/
+OCTT_MySql_Plugin/bin/
+OCTTPluginInterface/bin/
+OCTTPluginInterface/obj/
+OpenCTT/obj/
+/OpenCTT/MyStrings/rename.sh
