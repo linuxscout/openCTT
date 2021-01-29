@@ -12,3 +12,4 @@ Open course time tabler
     * Copying whole course from a groupe to another
     * Add more fields to teachers like: category, deparment
     * Add categories to rooms to choose it by types
+    * Change days order

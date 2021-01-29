@@ -1,8 +1,5 @@
 ﻿<Properties StartupConfiguration="{7C8C18B4-0A5C-451D-AF01-5AB969488F08}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="OpenCTT/Forms/SettingsForm.cs">
-    <Files>
-      <File FileName="OpenCTT/Forms/SettingsForm.cs" Line="1636" Column="17" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
